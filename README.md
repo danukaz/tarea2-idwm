@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio Personal
 
-## Getting Started
+Un sitio web de portfolio moderno y responsive construido con Next.js 15, TypeScript y Tailwind CSS. Incluye modo oscuro/claro, formulario de contacto interactivo y optimizaciones SEO.
 
-First, run the development server:
+## 🚀 Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Diseño Responsive**: Adaptado para desktop, tablet y mobile
+- **Modo Oscuro/Claro**: Toggle de tema persistente
+- **Formulario Interactivo**: Simulación de envío con loader y toast
+- **SEO Optimizado**: Metadatos, Open Graph y Twitter Cards
+- **Imágenes Optimizadas**: Uso de Next.js Image para mejor rendimiento
+- **Navegación Fluida**: Routing interno sin recargas de página
+- **Código Limpio**: ESLint, Prettier y detección de código muerto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: Next.js 15 (App Router)
+- **Lenguaje**: TypeScript
+- **Estilos**: Tailwind CSS
+- **Componentes**: shadcn/ui
+- **Iconos**: Lucide React
+- **Herramientas**: ESLint, Prettier, Knip, Husky
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📋 Secciones
 
-## Learn More
+- **Hero**: Presentación principal con nombre y tagline
+- **Sobre Mí**: Biografía personal y stack tecnológico
+- **Proyectos**: Showcases de trabajos realizados
+- **Habilidades**: Skills organizadas por categorías
+- **Timeline**: Línea de tiempo con experiencia/educación
+- **Contacto**: Formulario funcional con validación
 
-To learn more about Next.js, take a look at the following resources:
+## 🏃‍♂️ Instalación Local
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Requisitos Previos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js 18.0 o superior
+- npm o yarn
+- Git
 
-## Deploy on Vercel
+### Pasos de Instalación
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clonar el repositorio**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/danukaz/tarea2-idwm.git
+   cd tarea2-idwm
+   ```
+
+2. **Instalar dependencias**
+
+   ```bash
+   npm install
+   ```
+
+3. **Ejecutar en modo desarrollo**
+
+   ```bash
+   npm run dev
+   ```
+
+4. **Abrir en el navegador**
+   ```
+   http://localhost:3000
+   ```
+
+## 📜 Scripts Disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo con Turbopack
+- `npm run build` - Construye la aplicación para producción
+- `npm run start` - Inicia el servidor de producción
+- `npm run lint` - Ejecuta ESLint para revisar el código
+- `npm run lint:fix` - Corrige automáticamente errores de lint
+- `npm run format` - Formatea el código con Prettier
+- `npm run format:check` - Verifica el formato del código
+- `npm run knip` - Detecta código y dependencias no utilizadas
+
+## 🚀 Despliegue
+
+**Para ver la página visita:** [https://tarea2-idwm.vercel.app/](https://tarea2-idwm.vercel.app/)
+
+---
