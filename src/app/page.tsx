@@ -12,19 +12,13 @@ export const metadata = {
     'javascript',
     'typescript',
   ],
+  authors: [{ name: 'Daniel Tomigo' }],
   openGraph: {
     title: 'Daniel Tomigo | Desarrollador Full Stack',
-    description: 'Portfolio profesional de Daniel Tomigo',
-    url: 'https://daniel-tomigo.vercel.app',
+    description:
+      'Portfolio profesional de Daniel Tomigo - Desarrollador Full Stack especializado en React, Next.js y tecnologías web modernas',
+    url: 'https://tarea2-idwm.vercel.app',
     siteName: 'Daniel Tomigo Portfolio',
-    images: [
-      {
-        url: 'https://daniel-tomigo.vercel.app/og-image.png',
-        width: 1200,
-        height: 630,
-        alt: 'Daniel Tomigo Portfolio',
-      },
-    ],
     locale: 'es_ES',
     type: 'website',
   },

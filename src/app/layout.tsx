@@ -7,11 +7,6 @@ import { Toaster } from '@/components/ui/sonner'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Daniel Tomigo | Portafolio',
-  description: 'Portafolio profesional de Daniel Tomigo',
-}
-
 export default function RootLayout({
   children,
 }: {
